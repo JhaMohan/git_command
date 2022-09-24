@@ -34,7 +34,7 @@ Branch is a pointer to pointing to last commit id.
     git branch branch_name
 # command to switch to new branch
     git checkout branch_name
-# Merge    
+# Fast Forward Merge    
  Merge: Incorporating the changes of one branch to another branch.
  
  If ```dev``` is commit ahead from ```master``` and you want merge ```dev``` in ```master``` then first checkout to ```master``` then run command: ```git merge dev```
